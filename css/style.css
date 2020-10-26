@@ -1,5 +1,14 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: 400;
 }
 
+.section-title {
+  font-family: Roboto Slab;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+}
