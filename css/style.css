@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Slab', serif;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -11,4 +11,22 @@ body {
   font-size: 55px;
   line-height: 101.38%;
   color: #000000;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 0px 5px;
+}
+
+.header {
+  padding: 21px 0px 156.75px 0px;
+}
+
+.header__logo {
+  margin: 0px 0px 100px 0px;
+}
+
+.offer__list {
+  display: flex;
 }
