@@ -14,25 +14,30 @@ body {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0px auto;
-  padding: 0px 5px;
+  padding: 0px 20px;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Code Александр */
 
 .header {
-  padding: 21px 0px 156.75px 0px;
+  padding: 24px 0px 156.75px 0px;
 }
 
 .header__logo {
-  margin: 0px 0px 100px 0px;
+  margin: 0px 0px 95px 0px;
 }
 
 .header__body {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 15px 0px;
 
 }
 
@@ -40,7 +45,7 @@ body {
   display: flex;
   width: 490px;
   justify-content: space-between;
-  margin: 0px 0px 13px 0px;
+  margin: 0px 0px 22px 0px;
 }
 
 .offer__list > li {
@@ -49,6 +54,7 @@ body {
   font-size: 20px;
   line-height: 115%;
   padding: 3px 0px 0px 30px;
+  margin: 0px 10px 0px 0px;
 }
 
 .offer__list--item1 {
@@ -67,7 +73,7 @@ body {
   /* font-size: 80px; */
   font-size: clamp(37px, 5vw, 80px);
   line-height: 101.38%;
-  margin: 0px 0px 5px 0px;
+  margin: 0px 0px 35px 0px;
   width: 628px;
 }
 
@@ -81,11 +87,11 @@ body {
 }
 
 .header__quote {
-  width: 483.63px;
+  width: 425px;
   background: #1E4681;
   border-radius: 5px;
   transform: rotate(-4deg);
-  margin: 0px auto;
+  margin: 0px 0px 0px 290px;
   padding: 21px 29px;
 }
 
@@ -95,7 +101,7 @@ body {
   font-size: 25px;
   line-height: 130%;
   color: #FFFFFF;
-  margin: 0px 0px 9px 0px;
+  margin: 0px 0px 7px 0px;
 }
 
 .header__quote--author {
@@ -105,6 +111,10 @@ body {
   line-height: 130%;
   text-align: right;
   color: #fff
+}
+
+.header__body--img {
+  margin: 4px 370px 0px 0px;
 }
 
 
@@ -120,6 +130,24 @@ body {
   .course-program__title {
   justify-content: space-between;
   display: flex;
+  }
+
+  /* Здесь пишем все медиа запросы */
+
+  @media (min-width:992px) and (max-width:1279px) {
+    .container {
+      max-width: 834px;
+      padding: 0px 48px;
+    }
+    .header__body {
+      padding: 0px 0px 0px 20px;
+    }
+    .header__body--img {
+      width: 176px;
+      height: 206px;
+    }
+
+
   }
 
   
