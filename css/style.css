@@ -19,6 +19,8 @@ body {
   padding: 0px 5px;
 }
 
+/* Code Александр */
+
 .header {
   padding: 21px 0px 156.75px 0px;
 }
@@ -27,6 +29,97 @@ body {
   margin: 0px 0px 100px 0px;
 }
 
+.header__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
 .offer__list {
   display: flex;
+  width: 490px;
+  justify-content: space-between;
+  margin: 0px 0px 13px 0px;
 }
+
+.offer__list > li {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  padding: 3px 0px 0px 30px;
+}
+
+.offer__list--item1 {
+  background: url(../images/globe.svg) left top  no-repeat;
+}
+.offer__list--item2 {
+  background: url(../images/clock.svg) left top no-repeat;
+}
+.offer__list--item3 {
+  background: url(../images/calendar.svg) left top no-repeat;
+}
+
+.offer__title {
+  font-family: Roboto Slab;
+  font-weight: 700;
+  /* font-size: 80px; */
+  font-size: clamp(37px, 5vw, 80px);
+  line-height: 101.38%;
+  margin: 0px 0px 5px 0px;
+  width: 628px;
+}
+
+.offer__subtitle {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  width: 414px;
+  margin: 0px 0px 161px 0px;
+}
+
+.header__quote {
+  width: 483.63px;
+  background: #1E4681;
+  border-radius: 5px;
+  transform: rotate(-4deg);
+  margin: 0px auto;
+  padding: 21px 29px;
+}
+
+.header__quote--text {
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 130%;
+  color: #FFFFFF;
+  margin: 0px 0px 9px 0px;
+}
+
+.header__quote--author {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: right;
+  color: #fff
+}
+
+
+/* CSS  code от Максима */
+
+.item-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+  }
+  .course-program__title {
+  justify-content: space-between;
+  display: flex;
+  }
+
+  
