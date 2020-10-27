@@ -13,6 +13,7 @@ body {
   color: #000000;
 }
 
+<<<<<<< HEAD
 .reviews{
   margin: auto;
   width: 1440px;
@@ -318,3 +319,230 @@ footer {
     margin-top: 50px;
   }
 }
+=======
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Code Александр */
+
+.header {
+  padding: 24px 0px 156.75px 0px;
+}
+
+.header__logo {
+  margin: 0px 0px 95px 0px;
+}
+
+.header__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 51px 0px;
+
+}
+
+.offer__list {
+  display: flex;
+  width: 490px;
+  margin: 0px 0px 22px 0px;
+}
+
+.offer__list > li {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  padding: 3px 0px 0px 30px;
+  margin: 0px 25px 0px 0px;
+}
+
+.offer__list--item1 {
+  background: url(../images/globe.svg) left top  no-repeat;
+}
+.offer__list--item2 {
+  background: url(../images/clock.svg) left top no-repeat;
+}
+.offer__list--item3 {
+  background: url(../images/calendar.svg) left top no-repeat;
+}
+
+.offer__title {
+  font-family: Roboto Slab;
+  font-weight: 700;
+  /* font-size: 80px; */
+  font-size: clamp(37px, 5vw, 80px);
+  line-height: 101.38%;
+  margin: 0px 0px 35px 0px;
+  width: 628px;
+}
+
+.offer__subtitle {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  width: 414px;
+  /* margin: 0px 0px 161px 0px; */
+}
+
+.header__quote {
+  width: 425px;
+  background: #1E4681;
+  border-radius: 5px;
+  transform: rotate(-4deg);
+  margin: 0px 0px 0px 290px;
+  padding: 21px 29px;
+}
+
+.header__quote--text {
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 130%;
+  color: #FFFFFF;
+  margin: 0px 0px 7px 0px;
+}
+
+.header__quote--author {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: right;
+  color: #fff
+}
+
+.header__body--img {
+  margin: 4px 370px 0px 0px;
+}
+
+.header__body--img >img {
+  object-fit: contain;
+}
+
+
+/* CSS  code от Максима */
+
+.item-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+  }
+  .course-program__title {
+  justify-content: space-between;
+  display: flex;
+  }
+
+  /* Здесь пишем все медиа запросы */
+
+  @media (min-width:992px) and (max-width:1279px) {
+    .container {
+      max-width: 834px;
+      padding: 0px 48px;
+    }
+
+    .header__logo {
+      width: 64.87px;
+    }
+    .header__body {
+      margin: 0px 0px 41px 0px;
+      padding: 0px 0px 0px 20px;
+      align-items: flex-start;
+    }
+
+    .offer__list > li {
+      font-size: 12px;
+    }
+
+    .offer__list--item1 {
+      background: url(../images/globe.svg) left top/ 13px 13px no-repeat;
+    }
+    .offer__list--item2 {
+      background: url(../images/clock.svg) left top/13px 13px no-repeat;
+    }
+    .offer__list--item3 {
+      background: url(../images/calendar.svg) left top/12px 13px no-repeat;
+    }
+
+    .offer__subtitle {
+      font-size: 12px;
+    }
+    .header__body--img {
+      width: 176px;
+      height: 206px;
+      margin: 20px 0px 0px 0px;
+    }
+
+    .header__quote {
+      width: 287px;
+      margin: 0px 0px 0px 233px;
+    }
+
+    .header__quote--text {
+      font-size: 14px;
+    }
+
+    .header__quote--author {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width:991px){
+    .container {
+      width: 375px;
+      padding: 0px 35px;
+    }
+
+    .header__logo {
+      width: 53px;
+      margin: 0px 0px 44px 0px;
+    }
+
+    .header__body {
+      flex-direction: column;
+    }
+
+    .header__body--offer {
+      width: 100%;
+    }
+    .header__body--img {
+      width: 142px;
+    }
+    .offer__list--item1 {
+      background: url(../images/globe.svg) left top/ 11px 11px no-repeat;
+    }
+    .offer__list--item2 {
+      background: url(../images/clock.svg) left top/11px 11px no-repeat;
+    }
+    .offer__list--item3 {
+      background: url(../images/calendar.svg) left top/10px 11px no-repeat;
+    }
+
+    .offer__list > li {
+      font-size: 10px;
+      margin: 0px 15px 0px 0px;
+      padding: 0px 0px 0px 15px;
+    }
+
+    .offer__title {
+      margin: 0px 0px 20px 0px;
+    }
+
+    .offer__subtitle {
+      font-size: 10px;
+      width: 212px;
+    }
+
+  }
+
+  
+>>>>>>> cb80b5fb84562b8f0bd404fbce271ed42ed2182e
