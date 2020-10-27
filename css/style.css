@@ -1,7 +1,11 @@
+/* 
+! Общие стили для всего проекта
+*/
+
 body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Slab', serif;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -13,7 +17,26 @@ body {
   color: #000000;
 }
 
+<<<<<<< HEAD
 /*<<<<<<< HEAD*/
+=======
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* 
+!============================================ 
+*/
+/* 
+! CSS Код написанный Владимиром 
+*/
+>>>>>>> 6a2bfd198540dea387d602082d01e99731a98f07
 .reviews{
   margin: auto;
   width: 1440px;
@@ -39,7 +62,9 @@ footer {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
-  /* стили сработают для вывода на экран шириной от 992 до 1279 пикселей */
+  /* 
+  * стили сработают для вывода на экран шириной от 992 до 1279 пикселей 
+  */
   .reviews {
     margin: auto;
     width: 834px;
@@ -290,7 +315,9 @@ footer {
 }
 
 @media screen and (min-width: 320px) and (max-width: 991px) {
-  /* стили сработают для вывода на экран шириной от 320 до 991 пикселей */
+  /* 
+  *стили сработают для вывода на экран шириной от 320 до 991 пикселей 
+  */
   .reviews {
     margin: auto;
     width: 375px;
@@ -357,7 +384,7 @@ footer {
     margin: 60px 0 0 10px;
   }
 
-  /*-------------  FOOTER  --------------*/
+  /* *-------------  FOOTER  --------------*/
 
   footer {
     margin: auto;
@@ -530,17 +557,24 @@ footer {
     margin-top: 50px;
   }
 }
+<<<<<<< HEAD
 .container {
   max-width: 1440px;
   margin: 0px auto;
   padding: 0px 20px;
 }
+=======
+/* 
+!=================================================
+*/
 
-img {
-  max-width: 100%;
-}
 
-/* Code Александр */
+>>>>>>> 6a2bfd198540dea387d602082d01e99731a98f07
+
+
+/* 
+    ! Код написанный Александром  
+*/
 
 .header {
   padding: 24px 0px 156.75px 0px;
@@ -751,8 +785,15 @@ img {
       font-size: 10px;
       width: 212px;
     }
-
   }
 
+<<<<<<< HEAD
 
 >>>>>>> cb80b5fb84562b8f0bd404fbce271ed42ed2182e
+=======
+  /* 
+    !===================================================
+  */
+
+  
+>>>>>>> 6a2bfd198540dea387d602082d01e99731a98f07
