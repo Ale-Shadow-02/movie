@@ -28,7 +28,7 @@ img {
 /* 
 ! CSS Код написанный Владимиром 
 */
->>>>>>> 6a2bfd198540dea387d602082d01e99731a98f07
+
 .reviews{
   margin: auto;
   width: 1440px;
@@ -261,7 +261,7 @@ footer {
     margin-top: 25px;
     margin-right: 90px;
     display: inline-block;
-    float: right;
+    float: right;    /* ! Ошибка надо разобраться почему! */
   }
 
   .footer-contacts__number {
@@ -549,19 +549,11 @@ footer {
     margin-top: 50px;
   }
 }
-<<<<<<< HEAD
 .container {
   max-width: 1440px;
   margin: 0px auto;
   padding: 0px 20px;
 }
-=======
-/* 
-!=================================================
-*/
-
-
->>>>>>> 6a2bfd198540dea387d602082d01e99731a98f07
 
 
 /* 
@@ -797,13 +789,10 @@ footer {
     }
   }
 
-<<<<<<< HEAD
 
->>>>>>> cb80b5fb84562b8f0bd404fbce271ed42ed2182e
-=======
   /* 
     !===================================================
   */
 
   
->>>>>>> 6a2bfd198540dea387d602082d01e99731a98f07
+
