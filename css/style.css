@@ -38,12 +38,23 @@ footer {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
-  /* стили сработают для вывода на экран шириной от 590 до 960 пикселей */
+  /* стили сработают для вывода на экран шириной от 992 до 1279 пикселей */
   .reviews {
     margin: auto;
     width: 834px;
-    /*height: 451.75px;*/
+    height: 451.75px;
     background-color: #EFEFEF;
+  }
+  .reviews-h2{
+    width: 571.64px;
+    height: 53.86px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32.44px;
+    padding-top: 51.7px;
+    margin-left: 70.66px;
   }
 
   footer {
@@ -67,7 +78,7 @@ footer {
 }
 
 @media screen and (min-width: 320px) and (max-width: 991px) {
-  /* стили сработают для вывода на экран шириной от 590 до 960 пикселей */
+  /* стили сработают для вывода на экран шириной от 320 до 991 пикселей */
   .reviews {
     margin: auto;
     width: 375px;
