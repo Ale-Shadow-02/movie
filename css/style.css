@@ -122,4 +122,109 @@ body {
   display: flex;
   }
 
-  
+  .main {
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+    
+  }
+
+  .module {
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 399px;
+    height: 328px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  }
+  .one {
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 86px;
+    top: 3434px;
+  }
+  .two {
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 520px;
+    top: 3434px;
+
+  }
+  .three {
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 956px;
+    top: 3434px;
+  }
+  .four {
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 84px;
+    top: 3803px;
+  }
+  .five {
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 520px;
+    top: 3803px;
+  }
+  .six {
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 956px;
+    top: 3803px;
+  }
+  .seven {
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 84px;
+    top: 4176px;
+  }
+  .eight {
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 520px;
+    top: 4176px;
+  }
+  .myline {
+    position: absolute;
+    width: 630px;
+    height: 14px;
+    left: 810px;
+    top: 3270px;
+  }
+  .text-course {    
+    position: absolute;
+    width: 905px;
+    height: 93px;
+    left: 121px;
+    top: 3246px;
+  }
+  .a {
+    position: absolute;
+    width: 365px;
+    height: 39px;
+    left: 104px;
+    top: 3605px;
+  }
+  .b {
+    position: absolute;
+    width: 365px;
+    height: 39px;
+    left: 540px;
+    top: 3605px;
+  }
+  .c{
+    position: absolute;
+    width: 365px;
+    height: 39px;
+    left: 976px;
+    top: 3605px;
+  }
