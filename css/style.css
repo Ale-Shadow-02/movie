@@ -13,7 +13,7 @@ body {
   color: #000000;
 }
 
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
 .reviews{
   margin: auto;
   width: 1440px;
@@ -57,6 +57,58 @@ footer {
     padding-top: 51.7px;
     margin-left: 70.66px;
   }
+  .reviews-card {
+    width: 458.12px;
+    /* height: 261.2px; */
+    border-radius: 17.38px;
+    background-color: #fff;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    margin-left: 73px;
+    padding: 23.17px 0;
+  }
+  .reviews-text{
+    width: 405.42px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    font-family: Roboto;
+    margin-left: 26.06px;
+  }
+  .reviews-photo {
+    width: 110px;
+    height: 98px;
+    display: inline-block;
+    background-image: url("../images/19.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+  }
+
+  .reviews-h3 {
+    width: 204.45px;
+    height: 34.17px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 17px;
+    color: #000;
+    display: inline-block;
+    position: absolute;
+    margin: 20px 0 0 7px;
+  }
+
+  .reviews-social {
+    width: 18.53px;
+    height: 18px;
+    background-image: url("../images/fb_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    position: absolute;
+    margin: 50px 0 0 7px;
+  }
 
   footer {
     margin: auto;
@@ -70,11 +122,170 @@ footer {
     height: 451.75px;
     background-color: #9DC9C8;
   }
+  .start-h2 {
+    width: 525.88px;
+    height: 38.23px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32.44px;
+    margin-top: 0;
+    margin-left: 71px;
+    padding-top: 103.67px;
+    color: #000;
+  }
+  .start-price {
+    width: 98.46px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: black;
+    margin: 0 0 0 71px;
+  }
+  .start-price__number {
+    width: 278.58px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 47px;
+    margin: 0 0 0 71px;
+  }
+  .start-list {
+    display: flex;
+    list-style: none;
+    padding-left: 71px;
+  }
+  .start-list li:first-child {
+    margin-right: 40px;
+  }
+  .start-list__big {
+    width: 170.28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: black;
+  }
+  .start-list__small {
+    width: 138px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.14px;
+    color: black;
+  }
 
   .footer {
     width: 100%;
     height: 225.88px;
     background-color: #000;
+  }
+  .footer-social {
+    padding-top: 29px;
+    display: inline-block;
+  }
+
+  .footer-social__logo {
+    width: 67px;
+    height: 40px;
+    background-image: url(../images/logo_mobile_white.png);
+    border: 0.47px solid black;
+    box-sizing: border-box;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    margin-left: 71px;
+    color: #fff;
+  }
+
+  .footer-social__list {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 41px;
+  }
+  .footer-social__insta{
+    width: 19.11px;
+    height: 19.11px;
+    background-image: url("../images/insta.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .footer-social__facebook{
+    width: 18.53px;
+    height: 18.53px;
+    background-image: url("../images/fb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+  }
+  .footer-social__vk{
+    width: 20.27px;
+    height: 20.27px;
+    background-image: url("../images/vk.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+  }
+  .footer-social__viber{
+    width: 19.69px;
+    height: 19.69px;
+    background-image: url("../images/viber.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+  }
+
+  .footer-contacts{
+    color: white;
+    margin-top: 25px;
+    margin-right: 90px;
+    display: inline-block;
+    float: right;
+  }
+
+  .footer-contacts__number {
+    width: 156px;
+    height: 23.17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .footer-contacts__number img {
+    margin-right: 5px;
+  }
+  .footer-contacts__mail {
+    width: 156px;
+    height: 23.17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 10px;
+  }
+  .footer-contacts__mail img {
+    margin-right: 5px;
+  }
+
+  .footer-sinxron {
+    color: white;
+    width: 134px;
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.14px;
+    margin-left: 71px;
+    margin-top: 50px;
   }
 }
 
@@ -319,7 +530,6 @@ footer {
     margin-top: 50px;
   }
 }
-=======
 .container {
   max-width: 1440px;
   margin: 0px auto;
@@ -544,5 +754,5 @@ img {
 
   }
 
-  
+
 >>>>>>> cb80b5fb84562b8f0bd404fbce271ed42ed2182e
