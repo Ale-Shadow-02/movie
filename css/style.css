@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Slab', serif;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
 }
 
@@ -13,20 +13,297 @@ body {
   color: #000000;
 }
 
-.container {
-  max-width: 1280px;
-  margin: 0px auto;
-  padding: 0px 5px;
+.reviews{
+  margin: auto;
+  width: 1440px;
+  height: 100px;
+  background-color: #EFEFEF;
 }
 
-.header {
-  padding: 21px 0px 156.75px 0px;
+footer {
+  margin: auto;
+  width: 1440px;
 }
 
-.header__logo {
-  margin: 0px 0px 100px 0px;
+.start {
+  width: 100%;
+  height: 780px;
+  background-color: #9DC9C8;
 }
 
-.offer__list {
-  display: flex;
+.footer {
+  width: 100%;
+  height: 390px;
+  background-color: #000;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  /* стили сработают для вывода на экран шириной от 590 до 960 пикселей */
+  .reviews {
+    margin: auto;
+    width: 834px;
+    /*height: 451.75px;*/
+    background-color: #EFEFEF;
+  }
+
+  footer {
+    margin: auto;
+    width: 834px;
+    height: 225.88px;
+    background-color: #000;
+  }
+
+  .start {
+    width: 100%;
+    height: 451.75px;
+    background-color: #9DC9C8;
+  }
+
+  .footer {
+    width: 100%;
+    height: 225.88px;
+    background-color: #000;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  /* стили сработают для вывода на экран шириной от 590 до 960 пикселей */
+  .reviews {
+    margin: auto;
+    width: 375px;
+    height: 423px;
+    background-color: #EFEFEF;
+  }
+
+  .reviews-h2 {
+    width: 257px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 26.36px;
+    padding: 35px 0 25px 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .reviews-card {
+    width: 308px;
+    border-radius: 13.98px;
+    background-color: #fff;
+    box-shadow: 0.47px 0.47px 9.32px rgba(0, 0, 0.25);
+    margin: auto;
+    padding: 18px 0;
+  }
+  .reviews-text{
+    width: 266px;
+    height: 111px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    font-family: Roboto;
+    margin: auto;
+  }
+
+  .reviews-photo {
+    width: 80px;
+    height: 84px;
+    display: inline-block;
+    margin-left: 21px;
+    margin-top: 13px;
+    background-image: url("../images/19.png");
+  }
+
+  .reviews-h3 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14.19px;
+    display: inline-block;
+    position: absolute;
+    margin: 30px 0 0 10px;
+  }
+
+  .reviews-social {
+    width: 15px;
+    height: 17.2px;
+    background-image: url("../images/fb_2.png");
+    display: inline-block;
+    position: absolute;
+    margin: 60px 0 0 10px;
+  }
+
+  /*-------------  FOOTER  --------------*/
+
+  footer {
+    margin: auto;
+    width: 375px;
+  }
+
+  .start {
+    width: 100%;
+    height: 363px;
+    background-color: #9DC9C8;
+  }
+
+  .start-h2 {
+    width: 224px;
+    height: 63px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 26.36px;
+    margin-top: 0;
+    margin-left: 35px;
+    padding-top: 62px;
+  }
+
+  .start-price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: black;
+    margin: 0 0 0 35px;
+  }
+  .start-price__number {
+    width: 224.13px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 37.51px;
+    margin: 0 0 0 35px;
+  }
+
+  .start-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 25px;
+  }
+
+  .start-list__big {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12.17px;
+    color: black;
+  }
+  .start-list__small {
+    width: 138px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.14px;
+    color: black;
+  }
+
+  .footer {
+    width: 100%;
+    height: 251px;
+    background-color: #000;
+  }
+
+  .footer-social {
+    padding-top: 23px;
+  }
+
+  .footer-social__logo {
+    width: 60px;
+    height: 31.69px;
+    background-image: url(../images/logo_mobile_white.png);
+    border: 0.47px solid black;
+    box-sizing: border-box;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    margin-left: 34px;
+  }
+
+  .footer-social__list {
+    display: flex;
+    margin-top: 12px;
+  }
+  .footer-social__insta{
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/insta.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .footer-social__facebook{
+    width: 14.91px;
+    height: 14.91px;
+    background-image: url("../images/fb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+  }
+  .footer-social__vk{
+    width: 16.31px;
+    height: 16.31px;
+    background-image: url("../images/vk.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+  }
+  .footer-social__viber{
+    width: 15.84px;
+    height: 15.84px;
+    background-image: url("../images/viber.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+  }
+
+  .footer-contacts{
+    color: white;
+    margin-top: 45px;
+    margin-left: 35px;
+  }
+
+  .footer-contacts__number {
+    width: 140px;
+    height: 18.64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12.17px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .footer-contacts__number img {
+    margin-right: 5px;
+  }
+  .footer-contacts__mail {
+    width: 140px;
+    height: 18.64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12.17px;
+    margin-left: 10px;
+  }
+  .footer-contacts__mail img {
+    margin-right: 5px;
+  }
+
+  .footer-sinxron {
+    color: white;
+    width: 141px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.14px;
+    margin-left: 35px;
+    margin-top: 50px;
+  }
 }
