@@ -1,0 +1,839 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section-title {
+  font-family: Roboto Slab;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* ################## Large Reviews class ################### */
+.reviews{
+  margin: auto;
+  max-width: 1440px;
+  height: 772px;
+  background-color: #EFEFEF;
+  text-shadow: 0.2px 0.2px #000;
+}
+.reviews-h2{
+  width: 987px;
+  height: 93px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height:55px;
+  padding-top: 86px;
+  margin-left: 122px;
+}
+.reviews-card {
+  width: 791px;
+  height: 396px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  margin: 32px 0 0 126px;
+  padding: 40px 0 15px 0;
+}
+.reviews-text{
+  width: 700px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: Roboto;
+  margin-left: 45px;
+}
+.reviews-photo {
+  width: 190px;
+  height: 169px;
+  display: inline-block;
+  background-image: url("../images/photoEkaterina/19_lg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 26px;
+  margin-top: 35px;
+}
+.reviews-h3 {
+  width: 353px;
+  height: 34.17px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  color: #000;
+  display: inline-block;
+  position: absolute;
+  margin: 74.2px 0 0 29.3px;
+}
+
+.reviews-social {
+  width: 32px;
+  height: 31px;
+  background-image: url("../images/fbColor/fb_2_lg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  position: absolute;
+  margin: 132px 0 0 29.3px;
+}
+
+/* ################## Large Footer block ################### */
+footer {
+  margin: auto !important;
+  max-width: 1440px;
+  background-color: #000;
+  text-shadow: 0.2px 0.2px #000;
+}
+
+/* ################## Large Start class ################### */
+.start {
+  width: 100%;
+  height: 780px;
+  background-color: #9DC9C8;
+}
+.start-h2 {
+  width: 908px;
+  height: 66px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 56px;
+  margin-top: 0;
+  margin-left: 124px;
+  padding-top: 179px;
+  color: #000;
+}
+.start-price {
+  width: 170px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  color: black;
+  margin: 54px 0 0 124px;
+}
+.start-price__number {
+  width: 481px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 81px;
+  margin: 4px 0 0 124px;
+}
+.start-list {
+  display: flex;
+  list-style: none;
+  padding-left: 124px;
+  margin-top: 75px;
+}
+.start-list li:first-child {
+  margin-right: 70px;
+}
+.start-list__big {
+  width: 294px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height:25px;
+  color: black;
+}
+.start-list__small {
+  width: 294px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: black;
+  margin-top: 15px;
+}
+
+/* ################## Large Footer class ################### */
+.footer {
+  width: 100%;
+  height: 390px;
+  background-color: #000;
+}
+.footer-social {
+  padding-top: 49px;
+  display: inline-block;
+}
+
+.footer-social__logo {
+  width: 115px;
+  height: 68px;
+  background-image: url(../images/logoWhite/logo_mobile_white_lg.png);
+  border: 0.47px solid black;
+  box-sizing: border-box;
+  margin-left: 122px;
+  color: #fff;
+}
+
+.footer-social__list {
+  display: flex;
+  margin-top: 32px;
+  margin-left: 122px;
+}
+.footer-social__insta{
+  width: 33px;
+  height: 33px;
+  background-image: url("../images/socialIcons/insta_lg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-social__facebook{
+  width: 32px;
+  height: 32px;
+  background-image: url("../images/socialIcons/fb_lg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 17px;
+}
+.footer-social__vk{
+  width: 35px;
+  height: 35px;
+  background-image: url("../images/socialIcons/vk_lg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 22px;
+}
+.footer-social__viber{
+  width: 34px;
+  height: 34px;
+  background-image: url("../images/socialIcons/viber_lg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 25px;
+}
+
+.footer-contacts{
+  color: white;
+  margin-top: 50px;
+  margin-right: 166px;
+  display: inline-block;
+  float: right;
+}
+
+.footer-contacts span{
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  display: inline-block;
+  float: right;
+}
+.footer-contacts_span1{
+  margin: 9px 36px 0 0;
+}
+.footer-contacts_span2{
+  margin: 0 10px 0 0;
+}
+
+.footer-contacts_numberPhone {
+  width: 27px;
+  height: 27px;
+  background-image: url("../images/socialIcons/phone_white_lg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 4px 21px 19px 0;
+  display: inline-block;
+}
+
+.footer-contacts_numberMail {
+  display: inline-block;
+  width: 27px;
+  height: 18px;
+  background-image: url("../images/socialIcons/mail_white_lg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 4px;
+}
+
+.footer-sinxron {
+  color: white;
+  width: 230px;
+  height: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  margin-left: 123px;
+  margin-top: 142px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  /*
+  * стили сработают для вывода на экран шириной от 992 до 1279 пикселей
+  */
+
+  /* ################## Medium Reviews class ################### */
+  .reviews {
+    margin: auto;
+    width: 834px;
+    height: 451.75px;
+    background-color: #EFEFEF;
+    text-shadow: 0.2px 0.2px #000;
+  }
+  .reviews-h2{
+    width: 571.64px;
+    height: 53.86px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32.44px;
+    padding-top: 52.5px;
+    margin-left: 70.66px;
+  }
+  .reviews-card {
+    width: 458.12px;
+    height: 220px;
+    border-radius: 17.38px;
+    background-color: #fff;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    margin: 21px 0 0 73px;
+    padding: 23px 0 15px 0;
+  }
+  .reviews-text{
+    width: 405.42px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: Roboto;
+    margin-left: 26.06px;
+  }
+  .reviews-photo {
+    width: 110px;
+    height: 98px;
+    display: inline-block;
+    background-image: url("../images/photoEkaterina/19_m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+
+  .reviews-h3 {
+    width: 204.45px;
+    height: 34.17px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 17px;
+    color: #000;
+    display: inline-block;
+    position: absolute;
+    margin: 37.5px 0 0 17.5px;
+  }
+
+  .reviews-social {
+    width: 18.53px;
+    height: 18px;
+    background-image: url("../images/fbColor/fb_2_m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    position: absolute;
+    margin: 72px 0 0 17.5px;
+  }
+
+/* ################## Medium Footer block ################### */
+  footer {
+    margin: auto !important;
+    width: 834px;
+    height: 225.88px;
+    background-color: #000;
+    text-shadow: 0.2px 0.2px #000;
+  }
+
+/* ################## Medium Start class ################### */
+  .start {
+    width: 100%;
+    height: 451.75px;
+    background-color: #9DC9C8;
+  }
+  .start-h2 {
+    width: 525.88px;
+    height: 38.23px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32.44px;
+    margin-top: 0;
+    margin-left: 70px;
+    padding-top: 104px;
+    color: #000;
+  }
+  .start-price {
+    width: 98.46px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: black;
+    margin: 33px 0 0 71px;
+  }
+  .start-price__number {
+    width: 278.58px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 47px;
+    margin: 2px 0 0 71px;
+  }
+  .start-list {
+    display: flex;
+    list-style: none;
+    padding-left: 71px;
+    margin-top: 44px;
+  }
+  .start-list li:first-child {
+    margin-right: 40px;
+  }
+  .start-list__big {
+    width: 170.28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: black;
+  }
+  .start-list__small {
+    width: 170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.14px;
+    color: black;
+    margin-top: 9px;
+  }
+
+/* ################## Medium Footer class ################### */
+
+  .footer {
+    width: 100%;
+    height: 225.88px;
+    background-color: #000;
+  }
+  .footer-social {
+    padding-top: 28px;
+    display: inline-block;
+  }
+
+  .footer-social__logo {
+    width: 67px;
+    height: 40px;
+    background-image: url(../images/logoWhite/logo_mobile_white_m.png);
+    border: 0.47px solid black;
+    box-sizing: border-box;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    margin-left: 68px;
+    color: #fff;
+  }
+
+  .footer-social__list {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 70px;
+  }
+  .footer-social__insta{
+    width: 19.11px;
+    height: 19.11px;
+    background-image: url("../images/socialIcons/insta_m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .footer-social__facebook{
+    width: 18.53px;
+    height: 18.53px;
+    background-image: url("../images/socialIcons/fb_m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+  }
+  .footer-social__vk{
+    width: 20.27px;
+    height: 20.27px;
+    background-image: url("../images/socialIcons/vk_m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 12px;
+  }
+  .footer-social__viber{
+    width: 19.69px;
+    height: 19.69px;
+    background-image: url("../images/socialIcons/viber_m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 15px;
+  }
+
+  .footer-contacts{
+    color: white;
+    margin-top: 27.8px;
+    margin-right: 2px;
+    display: inline-block;
+    float: right;
+  }
+
+  .footer-contacts span{
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    display: inline-block;
+    float: right;
+  }
+  .footer-contacts_span1{
+    margin: 8px 120px 0 0;
+  }
+  .footer-contacts_span2{
+    margin: 0 106px 0 0;
+  }
+
+  .footer-contacts_numberPhone {
+    width: 15.64px;
+    height: 15.64px;
+    background-image: url("../images/socialIcons/phone_white_m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 4px 14px 10px 0;
+    display: inline-block;
+  }
+
+  .footer-contacts_numberMail {
+    display: inline-block;
+    width: 15.64px;
+    height: 10.43px;
+    background-image: url("../images/socialIcons/mail_white_m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0.5px 0 0 0;
+  }
+
+  .footer-sinxron {
+    color: white;
+    width: 134px;
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.2px;
+    line-height: 10.14px;
+    margin-left: 69px;
+    margin-top: 82px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  /*
+  *стили сработают для вывода на экран шириной от 320 до 991 пикселей
+  */
+
+/* ################## Small Reviews class ################### */
+  .reviews {
+    margin: auto;
+    width: 375px;
+    height: 424px;
+    text-shadow: 0.2px 0.2px #000;
+    background-color: #EFEFEF;
+  }
+
+  .reviews-h2 {
+    width: 257px;
+    height: 69px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Roboto Slab;
+    font-size: 26px;
+    line-height: 26.36px;
+    padding: 41.7px 0 7px 35px;
+    margin: 0 0 6px 0;
+  }
+
+  .reviews-card {
+    width: 308px;
+    height: 220px;
+    border-radius: 13.98px;
+    background-color: #fff;
+    box-shadow: 0.47px 0.47px 9.32px rgba(0, 0, 0.25);
+    margin-left: 35px;
+    padding: 17px 0 10px 0;
+    margin-top: 0;
+  }
+  .reviews-text{
+    width: 266px;
+    height: 111px;
+    font-size: 10.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    font-family: Roboto;
+    margin: auto;
+    letter-spacing: -0.1px;
+  }
+
+  .reviews-photo {
+    width: 80px;
+    height: 84px;
+    display: inline-block;
+    margin-left: 21.5px;
+    margin-top: 22px;
+    background-image: url("../images/photoEkaterina/19_sm.png");
+  }
+
+  .reviews-h3 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14.19px;
+    display: inline-block;
+    position: absolute;
+    margin: 40px 0 0 13px;
+  }
+
+  .reviews-social {
+    width: 15px;
+    height: 17.2px;
+    background-image: url("../images/fbColor/fb_2_sm.png");
+    display: inline-block;
+    position: absolute;
+    margin: 72px 0 0 13.2px;
+  }
+
+/* ################## Small Footer block ################### */
+
+  footer {
+    margin: auto !important;
+    width: 375px;
+    text-shadow: 0.2px 0.2px #000;
+  }
+
+/* ################## Small Start Class ################### */
+  .start {
+    width: 100%;
+    height: 362px;
+    background-color: #9DC9C8;
+  }
+
+  .start-h2 {
+    width: 224px;
+    height: 63px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 26.36px;
+    margin-top: 0;
+    margin-left: 34.5px;
+    padding-top: 62px;
+  }
+
+  .start-price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: black;
+    margin: 22.5px 0 0 34.2px;
+  }
+  .start-price__number {
+    width: 224.13px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 37.51px;
+    margin: 2px 0 0 34.5px;
+  }
+
+  .start-list {
+    display: flex;
+    list-style: none;
+    padding-left: 34.5px;
+    margin-top: 35px;
+  }
+  .start-list li:last-child{
+    margin-left: 0;
+  }
+  .start-list li:first-child {
+    margin-right: 31px;
+    padding-right: 0;
+  }
+
+  .start-list__big {
+    width: 137px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12.17px;
+    color: black;
+  }
+  .start-list__small {
+    width: 138px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.14px;
+    color: black;
+    margin-top: 6px;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+/* ################## Small Footer Class ################### */
+  .footer {
+    width: 100%;
+    height: 251px;
+    background-color: #000;
+
+  }
+
+  .footer-social {
+    padding-top: 23px;
+  }
+
+  .footer-social__logo {
+    width: 60px;
+    height: 31.69px;
+    background-image: url(../images/logoWhite/logo_mobile_white_sm.png);
+    border: 0.47px solid black;
+    box-sizing: border-box;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    margin-left: 32px;
+  }
+
+  .footer-social__list {
+    display: flex;
+    margin-top: 14px;
+    margin-left: 0;
+  }
+  .footer-social__insta{
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/socialIcons/insta_sm.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 38px;
+  }
+  .footer-social__facebook{
+    width: 14.91px;
+    height: 14.91px;
+    background-image: url("../images/socialIcons/fb_sm.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 8px;
+  }
+  .footer-social__vk{
+    width: 16.31px;
+    height: 16.31px;
+    background-image: url("../images/socialIcons/vk_sm.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+  }
+  .footer-social__viber{
+    width: 15.84px;
+    height: 15.84px;
+    background-image: url("../images/socialIcons/viber_sm.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+  }
+
+  .footer-contacts{
+    color: white;
+    margin-top: 45px;
+    display: block;
+    width: 46%;
+  }
+
+  .footer-contacts span{
+    width: 125.35px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    display: inline-block;
+  }
+  .footer-contacts_span1{
+    margin: 2px 22px 0 0;
+  }
+  .footer-contacts_span2{
+    margin: 2px 22px 0 0;
+  }
+
+  .footer-contacts_numberPhone {
+    width: 12.58px;
+    height: 12.58px;
+    background-image: url("../images/socialIcons/phone_white_sm.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 0 5px 2px;
+    display: inline-block;
+  }
+
+  .footer-contacts_numberMail {
+    display: inline-block;
+    width: 12.58px;
+    height: 8.39px;
+    background-image: url("../images/socialIcons/mail_white_sm.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 0 0 1px;
+  }
+
+  .footer-sinxron {
+    color: white;
+    width: 141px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.1px;
+    line-height: 10.14px;
+    margin-left: 38px;
+    margin-top: 133px;
+  }
+}
