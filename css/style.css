@@ -89,6 +89,7 @@ img {
   margin-bottom: 38px;
   font-family: 'Roboto Slab', sans-serif;
   font-size: 80px;
+  font-weight: 700;
   line-height: 101.38%;
 }
 
@@ -265,6 +266,7 @@ img {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 25px;
+  font-weight: 700;
   line-height: 130%;
 }
 
@@ -288,6 +290,12 @@ img {
   margin-bottom: 10px;
   color: #1e4681;
   font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.block__item--text {
+  font-size: 18px;
   line-height: 130%;
 }
 
@@ -360,6 +368,7 @@ img {
 .what-learn__text--list {
   margin-bottom: 0px;
   padding-left: 20px;
+  list-style-type: disc;
 }
 
 .what-learn__text--item {
@@ -431,6 +440,7 @@ img {
   border-radius: 30px;
   transition: 0.3s;
 }
+
 
 .cours-programm__item:hover {
   cursor: pointer;
@@ -510,7 +520,12 @@ img {
   -ms-flex: auto;
   flex: auto;
   font-size: 30px;
+  font-weight: 700;
   line-height: 130%;
+}
+
+.item__body--title.last {
+  margin-bottom: 0px;  
 }
 
 .item__body--descr {
@@ -524,13 +539,24 @@ img {
 }
 
 .course-authors {
-  padding-top: 324px;
   padding-bottom: 244px;
 }
 
 .course-authors__body {
+  position: relative;
   padding-right: 102px;
   padding-left: 121px;
+  padding-top: 187px;
+}
+
+.block-info__img {
+  position: absolute;
+  top: -200px;
+  right: 90px;
+}
+
+.image-6 {
+  max-width: 100%;  
 }
 
 .course-author__content {
@@ -663,7 +689,7 @@ img {
 .wrap__block-info {
   position: absolute;
   left: auto;
-  top: -392%;
+  top: -221%;
   right: 0%;
   bottom: auto;
   text-align: right;
@@ -678,9 +704,7 @@ img {
   display: block;
 }
 
-.image-6 {
-  margin-bottom: 20px;
-}
+
 /* !================================================================ */
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
