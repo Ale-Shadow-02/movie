@@ -2,197 +2,265 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
   <title>ProjectM1</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap"
-    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+
+  <script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: ["Roboto Slab:regular,700:cyrillic,cyrillic-ext,latin",
+          "Roboto:regular,700:cyrillic,cyrillic-ext,latin"
+        ]
+      }
+    });
+  </script>
 </head>
 
-<body>
-  <!-- 
-    TODO Александр 
-  -->
-  <header class="header">
-    <div class="header__container {
-      ">
-      <div class="header__logo">
-        <img src="./images/logo_mobile_black 1.png" alt="logo" />
-      </div>
+<body class="body">
+  <div class="header">
+    <div class="header__container">
       <div class="header__body">
-        <div class="header__body--offer offer">
-          <ul class="offer__list">
-            <li class="offer__list--item1">онлайн-курс</li>
-            <li class="offer__list--item2">18 часов </li>
-            <li class="offer__list--item3">8 сентября</li>
-          </ul>
-          <h1 class="offer__title">Как смотреть<br> кино</h1>
-          <span class="offer__subtitle">За 8 занятий станем активными зрителями
-            и разберёмся в кинопроцессе</span>
+        <div class="header__logo"><img src="images/logo.png" loading="lazy" alt=""></div>
+        <div class="header__offer offer">
+          <div class="header__offer--body">
+            <div class="offer__info item">
+              <div class="item__img"><img src="images/globe.svg" loading="lazy" alt="" class="image">
+                <div class="item__text">онлайн-курс</div>
+              </div>
+              <div class="item__img"><img src="images/clock.svg" loading="lazy" alt="" class="image">
+                <div class="item__text">18 часов</div>
+              </div>
+              <div class="item__img item__img--last">
+                <img src="images/calendar.svg" loading="lazy" alt="" class="image">
+                <div class="item__text">8 сентября</div>
+              </div>
+            </div>
+            <h1 class="header__offer--title">Как смотреть<br>кино</h1>
+            <div class="header__offer--subtitle">За 8 занятий станем активными зрителями<br>и разберёмся в кинопроцессе
+            </div>
+          </div>
+          <div class="header__offer--img"><img src="images/offer-img.png" loading="lazy" height="376" alt=""
+              class="offer-img"></div>
         </div>
-        <div class="header__body--img">
-          <img src="./images/offer-img.png" alt="offer-img">
+        <div class="header__quote">
+          <div class="header__quote--text">Зритель для меня <br>не потребитель моей продукции, <br>не судья, а
+            соучастник <br>творчества, соавтор.</div>
+          <div class="header__quote--author">Андрей Тарковский</div>
         </div>
-      </div>
-      <div class="header__quote">
-        <span class="header__quote--text">Зритель для меня<br> не потребитель моей продукции,<br> не судья, а
-          соучастник<br> творчества, соавтор.</span>
-        <span class="header__quote--author">Андрей Тарковский</span>
       </div>
     </div>
-  </header>
-  <main class="main">
-    <!--
-      TODO Александр
-    -->
-    <section class="about">
-    </section>
-    <!--
-      TODO Секцию верстает Зоя
-    -->
-    <section class="class-format">
-
-    </section>
-    <!--
-      TODO Секцию верстает Зоя
-    -->
-    <section class="what-learn">
-    </section>
-    <!--
-      TODO Максим
-    -->
-    <section class="course-program">
-      <div class=“course-program__title”>
-        <h2 class=“section-title”>Программа курса</h2>
-        <div class=“line”>
-          <img class=“line” src=“/project-m1/images/line.svg”> </div> </div> <div class=“main”>
-          <div class=“how-create”>
-            <div class=“img1”><img src=“/project-m1/images/oscar.svg”> </div> <div class=“text1”>
-              <h3 class=“item-title”>1. Как создают кино</h3>
-              <p class=“sept”>8 сентября 20:00</p>
-              <p class=“danila”>Данила Кузнецов</p>
+  </div>
+  <div class="main">
+    <div class="about">
+      <div class="container">
+        <div class="about__body">
+          <h2 class="section__title about__title">О курсе</h2>
+          <div class="about__course">
+            <div class="about__curs--text">
+              <p class="about__course--descr">Порой фильмы устроены сложнее четырёхтомных романов. Но читать книги учат
+                со школы, а смотреть кино — нет. При этом без подготовки бывает трудно получить от просмотра
+                удовольствие.</p>
+              <p class="about__course--descr">На курсе из 8 занятий научимся быть осознанными зрителями. Познакомимся с
+                этапами кинопроизводства и узнаем, как смотреть кино глазами сценариста, режиссёра и монтажёра.
+                Разберёмся в особенностях жанров и рассмотрим важнейшие картины, от «Гражданина Кейна» до «Матрицы»</p>
             </div>
-          </div>
-          <div class=“drammas-view”>
-            <div class=“img2"><img src=“/project-m1/images/sheet.svg”> </div> <div class=“text2">
-              <h3 class=“item-title”>2. Взгляд даматурга</h3>
-              <p class=“sept”>10 сентября 13:00</p>
-              <p class=“danila”>Данила Кузнецов</p>
+            <div class="about__course--img">
+              <img src="images/about-cours-img.png" loading="lazy" alt="" class="about-img">
             </div>
-          </div>
-          <div class=“director-view”>
-            <div class=“img3”><img src=“/project-m1/images/cracker.svg”> </div> <div class=“text3”>
-              <h3 class=“item-title”>3. Взгляд режиссёра</h3>
-              <p class=“sept”>13 сентября 20:00</p>
-              <p class=“danila”>Данила Кузнецов</p>
-            </div>
-          </div>
-          <div class=“montager-view”>
-            <div class=“img4"><img src=“/project-m1/images/film.svg”> </div> <div class=“text4">
-              <h3 class=“item-title”>4. Взгляд монтажёра</h3>
-              <p class=“sept”>15 сентября 20:00</p>
-              <p class=“danila”>Данила Кузнецов</p>
-            </div>
-          </div>
-          <div class=“genre”>
-            <div class=“img5”><img src=“/project-m1/images/mask.svg”> </div> <div class=“text5”>
-              <h3 class=“item-title”>5. Жанр в кин</h3>
-              <p class=“sept”>17 сентября 13:00</p>
-              <p class=“danila”>Данила Кузнецов</p>
-            </div>
-          </div>
-          <div class=“cinema-language”>
-            <div class=“img6"><img src=“/project-m1/images/monitor.svg”> </div> <div class=“text6">
-              <h3 class=“item-title”>6. Язык кино. Семинар</h3>
-              <p class=“sept”>20 сентября 13:00</p>
-              <p class=“danila”>Данила Кузнецов</p>
-            </div>
-          </div>
-          <div class=“film-critic”>
-            <div class=“img7”><img src=“/project-m1/images/star.svg”> </div> <div class=“text7”>
-              <h3 class=“item-title”>7. Взгляд кинокритика</h3>
-              <p class=“sept”>21 сентября 19:00</p>
-              <p class=“danila”>Данила Кузнецов</p>
-            </div>
-          </div>
-          <div class=“viewer”>
-            <div class=“img8"><img src=“/project-m1/images/glass.svg”> </div> <div class=“text8">
-              <h3 class=“item-title”>8. Осознанный зритель. Семинар</h3>
-              <p class=“sept”>22 сентября 19:00</p>
-              <p class=“danila”>Данила Кузнецов</p>
+            <div class="about__cours--schedule schedule">
+              <div class="schedule__item img"><img src="images/about-img2.png" loading="lazy" alt=""></div>
+              <div class="schedule__item">
+                <div class="item__wrap--text">
+                  <h4 class="item__title">8 занятий</h4>
+                  <div class="item__text">Для погружения<br>в кинематограф</div>
+                </div>
+              </div>
+              <div class="schedule__item">
+                <div class="item__wrap--text">
+                  <h4 class="item__title">2 часа</h4>
+                  <div class="item__text">Длительность<br>каждого занятия</div>
+                </div>
+              </div>
+              <div class="schedule__item">
+                <div class="item__wrap--text">
+                  <h4 class="item__title">3 недели</h4>
+                  <div class="item__text">Длительность<br>курса</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-    </section>
-    <!--
-      TODO Александр
-    -->
-    <section class="course-authors">
-
-    </section>
-    <!--
-      TODO Владимир
-    -->
-    <section class="reviews">
-      <h2 class="reviews-h2">Курс прошло уже 1616 человек</h2>
-      <div class="reviews-card">
-        <p class="reviews-text">
-          Курс профессионально подготовлен, изложение материала весьма доступное, благодаря прекрасному изложению
-          лекторов и демонстрации примеров. А наличие домашних заданий позволяет закрепить все полученные знания на
-          практике. Теперь другими глазами смотрю фильмы, считываю не только сюжет , но и могу оценить работу режиссера,
-          оператора, монтажера и т.д. Спасибо!
-        </p>
-        <div class="reviews-photo"></div>
-        <h3 class="reviews-h3">Екатерина Палехова</h3>
-        <div class="reviews-social"></div>
       </div>
-    </section>
-  </main>
-  <!--
-    TODO Владимир
-  -->
-  <footer>
-    <section class="start">
-      <h2 class="start-h2">Начало курса — 8 сентября</h2>
-      <p class="start-price">Стоимость</p>
-      <p class="start-price__number">3900 руб.</p>
-      <ul class="start-list">
-        <li>
-          <p class="start-list__big">Для любого уровня</p>
-          <p class="start-list__small">Курс подходит и тем, кто начинает «с нуля», и тем, кто хочет упорядочить
-            имеющиеся знания.</p>
-        </li>
-        <li>
-          <p class="start-list__big">Проходите сейчас</p>
-          <p class="start-list__small">Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете
-          </p>
-        </li>
-      </ul>
-    </section>
-    <section class="footer">
-      <div class="footer-social">
-        <div class="footer-social__logo"></div>
-        <ul class="footer-social__list">
-          <li class="footer-social__insta"></li>
-          <li class="footer-social__facebook"></li>
-          <li class="footer-social__vk"></li>
-          <li class="footer-social__viber"></li>
-        </ul>
-      </div>
-      <div class="footer-contacts">
-        <div class="footer-contacts__number">
-          <img src="./images/phone_white.png" alt="mobile" /> +7 (499) 39-146-39
-        </div>
-        <div class="footer-contacts__mail">
-          <img src="./images/mail_white.png" alt="mail" /> hello@synchronize.ru
+    </div>
+    <div class="class-format">
+      <div class="container">
+        <div class="class-format--body">
+          <h2 class="section__title title-format">Формат занятий</h2>
+          <div class="class__format--block block">
+            <div class="block__item">
+              <h3 class="block__item--title">Вебинары</h3>
+              <div class="block__item--text">Занятия проходят онлайн <br>в режиме вебинаров<br> с преподавателем</div>
+            </div>
+            <div class="block__item">
+              <h3 class="block__item--title">Доступ навсегда</h3>
+              <div class="block__item--text">Если вы не успели на вебинар, <br>всегда можете посмотреть <br>запись в
+                личном кабинете</div>
+            </div>
+            <div class="block__item">
+              <h3 class="block__item--title">Общение</h3>
+              <div class="block__item--text">Вы можете задать вопрос <br>преподавателю на занятии</div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="footer-sinxron">© Синхронизация, 2020</div>
-    </section>
-  </footer>
-
+    </div>
+    <div class="what-learn">
+      <div class="container">
+        <div class="what-learn__body">
+          <div class="what-learn__text">
+            <h2 class="section__title what-learn__title">Что узнаем</h2>
+            <ul role="list" class="what-learn__text--list">
+              <li class="what-learn__text--item">Кто чем занят в съёмочной группе;</li>
+              <li class="what-learn__text--item">На какие этапы делится кинопроизводство;</li>
+              <li class="what-learn__text--item">Как выглядит сценарий фильма и как он меняется<br>по ходу съёмок;</li>
+              <li class="what-learn__text--item">Какими методами режиссёры заставляют нас смеяться, плакать и грустить;
+              </li>
+              <li class="what-learn__text--item">Как построение кадра, музыка и свет помогают считывать заложенные в
+                фильм смыслы;</li>
+              <li class="what-learn__text--item">Какие жанры есть в кино и как от них зависит работа операторов,
+                осветителей и монтажёров;</li>
+              <li class="what-learn__text--item">Как, зная всё это, понимать, о чем фильм.</li>
+            </ul>
+          </div>
+          <div class="what-learn__img">
+            <div class="what-learn__img--top">
+              <img src="images/what-learn-top.png" loading="lazy" alt="" class="image-3">
+            </div>
+            <div class="what-learn__img--botton">
+              <img src="images/what-learn-bottim.png" loading="lazy" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="course-program">
+      <div class="container">
+        <div class="course-programm__title">
+          <h2 class="section__title couse-programm-title">Программа курса</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="cours-programm__body">
+          <div class="cours-programm__body--wrap">
+            <div class="cours-programm__item">
+              <div class="item__body"><img src="images/cours-programm-img1.jpg" loading="lazy" alt="" class="image-4">
+                <h5 class="item__body--title">1. Как создают кино</h5>
+                <div class="item__body--descr">8 сентября 20:00<br>Данила Кузнецов</div>
+              </div>
+            </div>
+            <div class="cours-programm__item">
+              <div class="item__body"><img src="images/course-programm2.jpg" loading="lazy" alt="" class="image-4">
+                <h5 class="item__body--title">2. Взгляд драматурга</h5>
+                <div class="item__body--descr">10 сентября 20:00<br>Данила Кузнецов</div>
+              </div>
+            </div>
+            <div class="cours-programm__item">
+              <div class="item__body"><img src="images/cours-progrsmm3.jpg" loading="lazy" alt="" class="image-4">
+                <h5 class="item__body--title">3. Взгляд режиссёра</h5>
+                <div class="item__body--descr">13 сентября 20:00<br>Данила Кузнецов</div>
+              </div>
+            </div>
+            <div class="cours-programm__item">
+              <div class="item__body"><img src="images/cours-programm4.jpg" loading="lazy" alt="" class="image-4">
+                <h5 class="item__body--title">4. Взгляд монтажёра</h5>
+                <div class="item__body--descr">15 сентября 20:00<br>Данила Кузнецов</div>
+              </div>
+            </div>
+            <div class="cours-programm__item">
+              <div class="item__body"><img src="images/course-programm5.jpg" loading="lazy" alt="" class="image-4">
+                <h5 class="item__body--title">5. Жанры в кино</h5>
+                <div class="item__body--descr">17 сентября 20:00<br>Данила Кузнецов</div>
+              </div>
+            </div>
+            <div class="cours-programm__item">
+              <div class="item__body"><img src="images/course-programm6.jpg" loading="lazy" alt="" class="image-4">
+                <h5 class="item__body--title">6. Язык кино. Семинар</h5>
+                <div class="item__body--descr">20 сентября 20:00<br>Данила Кузнецов</div>
+              </div>
+            </div>
+            <div class="cours-programm__item">
+              <div class="item__body"><img src="images/cours-programm7.jpg" loading="lazy" alt="" class="image-4">
+                <h5 class="item__body--title">7. Взгляд кинокритика</h5>
+                <div class="item__body--descr">21 сентября 20:00<br>Данила Кузнецов</div>
+              </div>
+            </div>
+            <div class="cours-programm__item">
+              <div class="item__body"><img src="images/course-programm8.jpg" loading="lazy" alt="" class="image-4">
+                <h5 class="item__body--title">8. Осознанный зритель.<br>Семинар</h5>
+                <div class="item__body--descr">22 сентября 20:00<br>Данила Кузнецов</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="course-authors">
+      <div class="container">
+        <div class="course-authors__body">
+          <h2 class="section__title course-author__title">Авторы курса</h2>
+          <div class="course-author__content">
+            <div class="item-author">
+              <div class="item-author__img">
+                <img src="images/author1.png" loading="lazy" alt="" class="image-5">
+              </div>
+              <div class="item-author__text">
+                <div class="item-author__title">Данила Кузнецов</div>
+                <div class="item-autor__subtitle">режиссёр, историк кино</div>
+              </div>
+              <div class="item-author__info">
+                <div class="item-author__info--i">i</div>
+                <div class="block-info">
+                  <p class="block-info__text">Читает лекции и курсы в РАНХиГС. Занимается режиссированием и монтажом
+                    документальных фильмов. Член Союза кинематографистов РФ.</p>
+                  <p class="block-info__text">Окончил МГУ им. Ломоносова (исторический факультет), аспирантуру
+                    института
+                    востоковедения РАН, Высшие курсы сценаристов и режиссёров.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item-author item-author-2">
+              <div class="item-author__img">
+                <img src="images/author2.png" loading="lazy" alt="" class="image-5"></div>
+              <div class="item-author__text">
+                <div class="item-author__title">Данила Кузнецов</div>
+                <div class="item-autor__subtitle">кандидат философских наук, специалист<br> по герменевтике киноязыка
+                </div>
+              </div>
+              <div class="item-author__info item-author__info-2">
+                <div class="item-author__info--i info-2">i
+                  <div class="wrap__block-info">
+                    <img src="images/block-info.png" alt="block-info" class="image-6">
+                    <div class="block-info block-info-2">
+                      <p class="block-info__text">Окончил аспирантуру ВГСПУ (Волгоградский государственный
+                        социально-педагогический университет) по специальности «Философия». Защитил диссертацию,
+                        посвященную
+                        образному мышлению.</p>
+                      <p class="block-info__text">Преподает философию в <br>ВГСПУ. Сооснователь проекта
+                        «Интеллектуальные
+                        среды» в Волгограде — это встречи и лекции по искусству, философии, литературе. Занимается
+                        философией кино, герменевтикой киноязыка.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div></div>
+  </div>
 </body>
 
 </html>
