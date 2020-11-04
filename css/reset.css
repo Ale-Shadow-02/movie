@@ -110,10 +110,10 @@ body {
   box-sizing: border-box;
 }
 
-ol,
+/* ol,
 ul {
   list-style: none;
-}
+} */
 
 blockquote,
 q {
@@ -136,3 +136,4 @@ table {
 a {
   text-decoration: none;
 }
+
