@@ -639,7 +639,7 @@ img {
 
 .item-author__text {
   width: 288px;
-  margin-right: 3px;
+  margin-right: 4px;
 }
 
 .item-author__info {
@@ -649,7 +649,7 @@ img {
   display: flex;
   width: 28px;
   height: 28px;
-  margin-top: 45px;
+  margin-top: 46px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -684,26 +684,27 @@ img {
   left: auto;
   top: auto;
   right: -1%;
-  bottom: -86%;
+  bottom: -78%;
   width: 367px;
   height: auto;
-  padding: 32px 9px 34px 23px;
+  padding: 32px 7px 34px 23px;
   border-radius: 30px;
   box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.25);
   display: none;
 }
 
 .block-info-2 {
-  position: static;
+  position: absolute;
   left: auto;
-  top: -241%;
+  top: -221%;
   right: 0%;
+  padding: 24px 7px 9px 27px;
   bottom: auto;
   text-align: left;
 }
 
 .block-info__text {
-  margin-bottom: 25px;
+  margin-bottom: 23px;
   font-size: 18px;
   line-height: 130%;
 }
