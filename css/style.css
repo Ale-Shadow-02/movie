@@ -406,8 +406,7 @@ img {
 }
 
 .cours-programm__body {
-  padding-right: 85px;
-  padding-left: 85px;
+  padding: 0px 85px 0px 85px;
 }
 
 .cours-programm__body--wrap {
@@ -608,13 +607,13 @@ img {
 }
 
 .item-autor__subtitle {
-  width: 356px;
+  max-width: 356px;
   font-size: 18px;
   line-height: 130%;
 }
 
 .item-author__title {
-  width: 300px;
+  max-width: 300px;
   margin-top: 43px;
   margin-right: 0px;
   margin-bottom: 15px;
@@ -734,7 +733,7 @@ img {
 
 /* !================================================================ */
 
-@media screen and (min-width: 992px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
 
   /* *Style header ===============================================*/
 
@@ -836,7 +835,7 @@ img {
   .about__course--descr {
     font-size: 14px;
     line-height: 150%;
-    width: 383px;
+    max-width: 383px;
   }
 
   .about__body {
@@ -1009,13 +1008,6 @@ img {
     margin-bottom: 36px;
   }
 
-  /* .cours-programm__item:hover {
-    cursor: pointer;
-    transform: translateY(-5px);
-    hover none;
-  } */
-
-
   .item__body {
     width: 231px;
     border-radius: 17px;
@@ -1070,7 +1062,7 @@ img {
     line-height: 130%;
   }
 
-  .block-info__img > img {
+  .block-info__img>img {
     width: 150px;
     height: auto;
   }
@@ -1113,11 +1105,11 @@ img {
     width: 150px;
   }
 
-  .item-author__img > img {
+  .item-author__img>img {
     width: 109px;
   }
 
- 
+
   .block-info__text {
     font-size: 10px;
     line-height: 130%;
@@ -1126,19 +1118,522 @@ img {
 
   .item-author__img.item-2 {
     padding-left: 16px;
-}
-.block-info.block-info-2 {
-  top: -206%;
-  right: -3%; 
-  padding: 14px 12px 10px 14px;
-  bottom: auto;
-}
+  }
 
-.item-author__info.item-author__info-2 {
-  margin-top: 29px;
-}
+  .block-info.block-info-2 {
+    top: -206%;
+    right: -3%;
+    padding: 14px 12px 10px 14px;
+    bottom: auto;
+  }
+
+  .item-author__info.item-author__info-2 {
+    margin-top: 29px;
+  }
 
 }
 
 /* !================================================================== */
 
+@media (max-width:991px) {
+
+  /* * Style Header==================================================== */
+
+  .header__body {
+    padding: 0px 35px 0px 35px;
+  }
+
+  .header__offer--title {
+    font-size: clamp(36px, 5vw, 46px);
+  }
+
+  .header__offer--img {
+    width: 30%;
+  }
+
+  .header__quote {
+    width: clamp(190px, 5vw, 250px);
+    margin: 0px 0px 0px 20%;
+  }
+
+  .header__quote--text {
+    font-size: clamp(11px, 5vw, 14px);
+  }
+
+  .header__quote--author {
+    font-size: clamp(10px, 5vw, 12px);
+  }
+
+  /* * Style About =================================== */
+
+  .about__body {
+    padding: 0px 35px 0px 35px;
+  }
+
+  .section__title {
+    font-size: clamp(26px, 5vw, 32px);
+  }
+
+  .about__course--descr {
+    font-size: clamp(12px, 5vw, 14px);
+  }
+
+  /* * Style Class-format =================================== */
+
+  .class-format--body {
+    padding: 0px 35px 0px 35px;
+  }
+
+  .class__format--block.block {
+    justify-content: space-between;
+  }
+
+  .block__item {
+    width: 33%;
+  }
+
+  .block__item--title {
+    font-size: clamp(12px, 5vw, 15px);
+  }
+
+  .block__item--text {
+    font-size: clamp(10px, 5vw, 11px);
+  }
+
+  /* * Style What-learn =================================== */
+
+  .what-learn__body {
+    padding: 0px 35px 0px 35px;
+    justify-content: space-between;
+  }
+
+  .what-learn__text--item {
+    font-size: clamp(12px, 5vw, 14px);
+  }
+
+  .what-learn__text {
+    width: 60%;
+  }
+
+  .what-learn__img {
+    width: 40%;
+    margin-right: 0;
+    text-align: right;
+  }
+
+  /* * Style Course-program =================================== */
+
+  .cours-programm__body {
+    padding: 0px 35px 0px 35px;
+  }
+
+  .course-programm__title {
+    padding: 0px 0px 0px 35px;
+  }
+
+  .section__title.couse-programm-title {
+    width: 295px;
+    margin: 0px 15px 0px 0px;
+    flex-shrink: 0;
+  }
+
+  /* * Style Course-authors =================================== */
+
+  .course-authors__body {
+    padding: 0px 70px 0px 35px;
+  }
+}
+
+/* !============================================================== */
+
+@media (max-width:804px) {
+
+  /* * Style Course-program =================================== */
+
+  .cours-programm__body--wrap {
+    justify-content: center;
+  }
+
+  .block-info__img>img {
+    display: none;
+  }
+
+  .course-authors__body {
+    padding: 0px 35px 0px 35px;
+  }
+}
+
+@media (max-width:768px) {
+
+  /* * Style About =================================== */
+
+  .about__course {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about__curs--text {
+    width: 100%;
+  }
+
+  .about__course--img {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+
+  .about__course--img>img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .about__cours--schedule.schedule {
+    justify-content: space-between;
+  }
+
+  .schedule__item.img {
+    margin-right: 20px;
+  }
+
+  /* * Style Course-program =================================== */
+
+  .course-author__content {
+    flex-direction: column;
+  }
+
+  .item-author {
+    width: 100%;
+    margin: 0px 0px 130px 0px;
+  }
+
+  .item-author__img {
+    padding-left: 0;
+  }
+
+  .item-author__img.item-2 {
+    padding-left: 0;
+  }
+
+  .block-info {
+    position: absolute;
+    left: 104px;
+    top: 62px;
+    right: auto;
+    bottom: auto;
+    box-shadow: none;
+  }
+
+  .block-info.block-info-2 {
+    left: 102px;
+    top: 82px;
+    right: auto;
+    bottom: auto;
+  }
+}
+
+/* !================================================= */ 
+
+@media (max-width:576px){
+  
+  /* * Style Header ==================================== */
+
+  .header {
+    padding-top: 34px;
+  }
+
+  .header__logo {
+    margin: 0px 0px 37px 0px;
+  }
+
+  .header__logo > img {
+    width: 52px;
+  }
+
+  .header__body {
+    padding: 0px 26px 0px 35px;
+  }
+
+  .header__offer {
+    flex-direction: column;
+  }
+
+  .header__offer.offer {
+    margin-bottom: 41px;
+  }
+
+  .header__offer--body {
+    width: 100%;
+  }
+
+  .header__offer--title {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .offer__info.item {
+    width: 100%;
+    margin: 0px 0px 12px 0px;
+  }
+
+  .item__img {
+    margin-right: 14px;
+  }
+
+  .item__img.item__img--last {
+    margin-left: 4px; 
+  }
+
+  .item__img > img {
+    width: 10px;
+    margin-right: 4px;
+  }
+
+  .offer__item--text {
+    font-size: 10px;
+  }
+
+  .header__offer--subtitle {
+    font-size: 10px;
+  }
+
+  .header__offer--img {
+    width: 100%;
+    text-align: right;
+    margin-top: 0;
+  }
+  .header__offer--img > img {
+    width: 141px;
+  }
+
+  .header__quote {
+    margin-left: 0;
+  }
+
+  .header__quote {
+    margin-left: 4px;
+  }
+
+  .header__quote--text {
+    font-size: 11px;
+  }
+
+  .header__quote--author {
+    font-size: 10px;
+  }
+
+  
+  /* * Style About ==================================== */
+
+  .about {
+    padding: 72px 0px 0px 0px;
+  }
+
+  .about__title {
+    margin: 0px 0px 24px 0px;
+  }
+
+  .about__course--descr {
+    margin-bottom: 0;
+  }
+
+  .about__curs--text .about__course--descr:last-child {
+    margin-bottom: 0;
+  }
+
+  .about__course--img {
+    margin-bottom: 39px;
+  }
+
+  .about__course--img > img {
+    width: 170px;
+  }
+
+  .about__cours--schedule.schedule {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  } 
+
+  .schedule__item.img {
+    width: 35%;
+    margin-right: 0;
+    order: 4;
+  }
+
+  .schedule__item.img > img {
+    width: 108px;
+  }
+
+  .about__course--descr {
+    font-size: 12px;
+  }
+
+  .item__title {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+
+  .item__text {
+    font-size: 10px;
+  }
+
+  .item__wrap--text {
+    padding-top: 0;
+  }
+
+  .schedule__item.left {
+    width: 38%;
+    margin-right: 0;
+  }
+  .schedule__item.center {
+    width: 50%;
+    margin-right: 0;
+  }
+  .schedule__item.right {
+    width: 61%;
+  }
+
+   /* * Style Class-format ==================================== */
+
+  .class-format {
+    padding: 35px 0px 0px 0px;
+  }
+
+  .section__title.title-format {
+    margin: 0px 0px 34px 0px;
+  }
+
+  .block__item--title {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+
+  .block__item--text {
+    font-size: 10px;
+  }
+
+  .class__format--block.block {
+    flex-direction: column;
+  }
+
+  .block__item {
+    width: 60%;
+    margin-bottom: 32px;
+  }
+
+/* * Style What-learn ==================================== */
+
+.what-learn__body {
+  position: relative;
+  flex-direction: column;
+}
+
+  .what-learn__text {
+    padding-top: 41px;
+    width: 100%;
+  }
+
+  .section__title.what-learn__title {
+    margin-bottom: 26px;
+  }
+
+  .what-learn__text--item {
+    font-size: 12px;
+    line-height: 150%;
+    margin-bottom: 0;
+  }
+
+  .what-learn__img {
+    width: 100%;
+  }
+
+  .what-learn__img--top {
+    position: absolute;
+    top: -58px;
+    right: 61px;
+  }
+
+  .what-learn__img--top > img {
+    width: 127px;
+  } 
+
+  .what-learn__img--botton > img {
+    width: 179px;
+    display: block;
+    margin-left: 57px;  
+  }
+
+  /* * Style What-learn ==================================== */
+
+  .course-program {
+    padding: 49px 0px 0px 0px;
+  }
+
+  .section__title.couse-programm-title {
+    width: 263px;
+    margin-right: 0;
+  }
+
+  .course-programm__title {
+    margin-bottom: 51px;
+  }
+
+  .section-line {
+    height: 8px;
+  }
+
+  .cours-programm__item {
+    margin-bottom: 32px;
+  }
+
+  .item__body {
+    width: 184px;
+    padding-bottom: 10px;
+  }
+
+  .item__body--title {
+    font-size: 14px;
+    margin: 7px 0px 4px 11px;
+  }
+
+  .item__body--title.last {
+    margin-bottom: 0;
+  }
+
+  .item__body--descr {
+    font-size: 12px;
+  }
+
+ /* * Style Course-authors ==================================== */
+
+  .course-authors {
+    padding-top: 50px;    
+}
+
+  .item-author__img>img {
+    width: 80px;
+  }
+
+  .block-info {
+    left: 82px;
+  }
+
+  .block-info.block-info-2 {
+    left: 73px;
+    top: 77px;
+  }
+
+  .section__title.course-author__title {
+    margin-bottom: 41px;
+  }
+
+  .item-author {
+    margin: 0px 0px 196px 0px;
+  }
+
+  .item-author__title {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+  }
+
+
+}
