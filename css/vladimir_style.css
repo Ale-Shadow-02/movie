@@ -82,6 +82,12 @@ footer {
   text-shadow: 0.2px 0.2px #000;
 }
 
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 /* !################## Large Start class ################### */
 .start {
   width: 100%;
@@ -152,7 +158,6 @@ footer {
 /* !################## Large Footer class ################### */
 .footer {
   width: 100%;
-  /* height: 390px; */
   background-color: #000;
 }
 .footer-social {
@@ -212,7 +217,6 @@ footer {
   margin-top: 50px;
   margin-right: 166px;
   display: inline-block;
-  float: right;
 }
 
 .footer-contacts span{
@@ -223,16 +227,15 @@ footer {
   font-size: 25px;
   line-height: 25px;
   display: inline-block;
-  float: right;
 }
-.footer-contacts_span1{
+.footer-contacts__span1{
   margin: 9px 36px 0 0;
 }
-.footer-contacts_span2{
+.footer-contacts__span2{
   margin: 0 10px 0 0;
 }
 
-.footer-contacts_numberPhone {
+.footer-contacts__number-phone {
   width: 27px;
   height: 27px;
   background-image: url("../images/socialIcons/phone_white_lg.png");
@@ -242,7 +245,7 @@ footer {
   display: inline-block;
 }
 
-.footer-contacts_numberMail {
+.footer-contacts__number-mail {
   display: inline-block;
   width: 27px;
   height: 18px;
@@ -363,11 +366,8 @@ footer {
 
 /* !################## Medium Start class ################### */
   .start {
-    /* max-width: 834px; */
-    max-width: 66.1%;
-    margin: auto !important;
     background-color: #9DC9C8;
-    padding: 0 0 117px 0;
+    padding: 103px 0 107px 0;
   }
   .start-h2 {
     max-width: 525.88px;
@@ -378,8 +378,8 @@ footer {
     font-size: 32px;
     line-height: 32.44px;
     margin-top: 0;
+    padding-top: 0;
     margin-left: 70px;
-    padding-top: 104px;
     color: #000;
   }
   .start-price {
@@ -432,11 +432,7 @@ footer {
 
 /* !################## Medium Footer class ################### */
 
-  .footer {
-    /* max-width: 834px; */
-    max-width: 66.1%;
-    margin: auto;
-  }
+  
   .footer-social {
     padding-top: 28px;
     display: inline-block;
@@ -508,14 +504,14 @@ footer {
     display: inline-block;
     /* float: right; */
   }
-  .footer-contacts_span1{
+  .footer-contacts__span1{
     margin: 8px 120px 0 0;
   }
-  .footer-contacts_span2{
+  .footer-contacts__span2{
     margin: 0 106px 0 0;
   }
 
-  .footer-contacts_numberPhone {
+  .footer-contacts__number-phone {
     width: 15.64px;
     height: 15.64px;
     background-image: url("../images/socialIcons/phone_white_m.png");
@@ -525,7 +521,7 @@ footer {
     display: inline-block;
   }
 
-  .footer-contacts_numberMail {
+  .footer-contacts__number-mail {
     display: inline-block;
     width: 15.64px;
     height: 10.43px;
@@ -559,7 +555,7 @@ footer {
     max-width: 100%;
     text-shadow: 0.2px 0.2px #000;
     background-color: #EFEFEF;
-    padding-bottom: 0;
+    padding-bottom: 64px;
   }
   .reviews-block{
     margin: auto;
@@ -582,12 +578,13 @@ footer {
   }
 
   .reviews-card {
-    max-width: 90%;
-    /* max-width: 308px; */
+    /* max-width: 90%; */
+    max-width: 458px; 
     border-radius: 13.98px;
     background-color: #fff;
     box-shadow: 0.47px 0.47px 9.32px rgba(0, 0, 0.25);
     margin-left: 35px;
+    margin-right: 35px;
     padding: 17px 8px 10px 10px;
     margin-top: 0;
   }
@@ -634,6 +631,10 @@ footer {
     margin: 72px 0 0 13.2px;
   }
 
+  .start {
+    padding-bottom: 107px;
+  }
+
 /* !################## Small Footer block ################### */
   footer{
     max-width: 100%;
@@ -649,12 +650,12 @@ footer {
   }
 
 /* !################## Small Start Class ################### */
-  .start {
+  /* .start {
     max-width: 90%;
     margin: auto !important;
     background-color: #9DC9C8;
     padding: 0 0 72px 0;
-  }
+  } */
 
   .start-h2 {
     max-width: 80%;
@@ -725,10 +726,7 @@ footer {
   }
 
 /* !################## Small Footer Class ################### */
-  .footer {
-    max-width: 90%;
-    margin: auto;
-  }
+  
 
   .footer-social {
     padding-top: 23px;
@@ -801,13 +799,13 @@ footer {
     line-height: 12px;
     display: inline-block;
   }
-  .footer-contacts_span1{
+  .footer-contacts__span1{
     margin: 3px 13px 0 0;
   }
-  .footer-contacts_span2{
+  .footer-contacts__span2{
     margin: 4px 0 0 0;
   }
-  .footer-contacts_numberPhone {
+  .footer-contacts__number-phone {
     width: 12.58px;
     height: 12.58px;
     background-image: url("../images/socialIcons/phone_white_sm.png");
@@ -816,7 +814,7 @@ footer {
     margin: 0;
     display: inline-block;
   }
-  .footer-contacts_numberMail {
+  .footer-contacts__number-mail {
     display: inline-block;
     width: 13px;
     height: 9px;
@@ -843,14 +841,12 @@ footer {
 
 @media screen and (min-width: 310px) and (max-width: 374px) {
   /* ----------------------- Reviews --------------------- */
-  .reviews-card {
-    max-width: 75%;
-  }
+  
   .reviews {
     max-width: 100%;
     text-shadow: 0.2px 0.2px #000;
     background-color: #EFEFEF;
-    padding-bottom: 0;
+    padding: 45px 0px 55px 0px;
   }
   .reviews-block{
     margin: auto;
@@ -859,7 +855,7 @@ footer {
   }
 
   .reviews-h2 {
-    max-width: 80%;
+    max-width: 70%;
     height: 69px;
     font-weight: 700;
     font-style: normal;
@@ -871,11 +867,12 @@ footer {
   }
 
   .reviews-card {
-    max-width: 75%;
+    max-width: 308px;
     border-radius: 13.98px;
     background-color: #fff;
     box-shadow: 0.47px 0.47px 9.32px rgba(0, 0, 0.25);
     margin-left: 35px;
+    margin-right: 35px;
     padding: 17px 8px 10px 10px;
     margin-top: 0;
   }
@@ -900,7 +897,7 @@ footer {
   }
 
   .reviews-h3 {
-    max-width: 40%;
+    max-width: 45%;
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
@@ -1088,13 +1085,13 @@ footer {
     line-height: 12px;
     display: inline-block;
   }
-  .footer-contacts_span1{
+  .footer-contacts__span1{
     margin: 3px 13px 0 0;
   }
-  .footer-contacts_span2{
+  .footer-contacts__span2{
     margin: 4px 0 0 0;
   }
-  .footer-contacts_numberPhone {
+  .footer-contacts__number-phone {
     width: 12.58px;
     height: 12.58px;
     background-image: url("../images/socialIcons/phone_white_sm.png");
@@ -1103,7 +1100,7 @@ footer {
     margin: 0;
     display: inline-block;
   }
-  .footer-contacts_numberMail {
+  .footer-contacts__number-mail {
     display: inline-block;
     width: 13px;
     height: 9px;
